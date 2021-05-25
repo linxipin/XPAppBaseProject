@@ -1,0 +1,40 @@
+//
+//  XPAppPrefixHeader.pch
+//  XPAppBaseProject
+//
+//  Created by LinXipin on 2021/5/21.
+//
+
+#ifndef XPAppPrefixHeader_pch
+#define XPAppPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <ReactiveObjC.h>
+#import <MJRefresh.h>
+#import <MJExtension.h>
+//网络请求
+#import <AFNetworking.h>
+//image
+#import <SDWebImage.h>
+#import <UIImageView+WebCache.h>
+
+//布局UI
+#import <Masonry.h>
+#import <SDAutoLayout.h>
+#import <YYKit.h>
+//全局
+#import <IQKeyboardManager.h>
+#import "UINavigationController+FDFullscreenPopGesture.h"
+
+//加载
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+
+
+//LXPTOOL
+#import <XPTool/XPTool.h>
+#import <XPTool/XPDefaultHeader.h>
+
+
+#endif /* XPAppPrefixHeader_pch */
